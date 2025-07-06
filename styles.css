@@ -156,7 +156,7 @@ flex: 1;  display: flex;
   height: 25px;
   width: 30px;
   color: red;
-  margin-left: 9px;
+  margin-left: 8px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -288,6 +288,10 @@ flex: 1;  display: flex;
   width: 100%;
   object-fit: cover;
 
+}
+
+.email-txt, .telep-txt, .facebook-txt {
+  font-size: 14px;
 }
 
 }
