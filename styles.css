@@ -1,0 +1,578 @@
+p {
+  font-family: 'Roboto Mono';
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+
+body {
+  background-color: #defeff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+
+}
+
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  
+}
+
+
+
+
+
+.left-side {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  border-left: 2px solid rgb(182, 182, 182);
+  
+
+
+}
+
+.profile-pic-div {
+  width: 100%;
+  flex: 1;
+  border-top: 2px solid rgb(182, 182, 182);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic-transparent, .profile-pic {
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.info-div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+
+.name-profession {
+flex: 1;  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border-top: 2px solid rgb(182, 182, 182);
+}
+
+.name-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-top: 40px;
+
+}
+
+.name {
+  font-size: 45px;  
+  color: rgb(151, 97, 71);
+
+}
+
+.profession-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin-bottom: 40px;
+}
+
+.profession {
+  font-size: 23px;
+  color: rgb(55, 87, 180);
+
+}
+
+.contact-div {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid rgb(182, 182, 182);
+}
+
+.contact-txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0.5;
+
+}
+
+.contact-us {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  color: rgb(55, 87, 180);
+
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  
+}
+
+
+
+
+.email-icon-div {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(202, 250, 251);
+  width: 70%;
+  border-radius: 30px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.email-icon-div-2 {
+  height: 25px;
+  width: 30px;
+  color: red;
+  margin-left: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.email-icon {
+  height: 100%;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-txt {
+  display: flex;
+  font-size: 15px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50px;
+}
+
+
+
+
+
+.telep-icon-div {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(202, 250, 251);
+  width: 70%;
+  border-radius: 30px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.telep-icon-div-2 {
+  height: 25px;
+  width: 30px;
+  color: red;
+  flex: 0.1;
+  margin-left: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.telep-icon {
+  height: 100%;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.telep-txt {
+  display: flex;
+  font-size: 15px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-right: 73px;
+}
+
+
+
+
+.facebook-icon-div {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(202, 250, 251);
+  width: 70%;
+  border-radius: 30px;
+  display: flex;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.facebook-icon-div-2 {
+  height: 25px;
+  width: 30px;
+  color: red;
+  flex: 0.1;
+  margin-left: 8px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.facebook-icon {
+  height: 100%;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebook-txt {
+  display: flex;
+  font-size: 15px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-right: 73px;
+}
+
+
+
+@media (max-width: 600px) {
+  .email-icon-div, .telep-icon-div, .facebook-icon-div {
+    width: 95%;
+  }
+
+  .email-txt {
+    margin-right: 20px;
+  }
+
+  .telep-txt {
+    margin-right: 30px
+  }
+  .facebook-txt {
+    margin-right: 30px;
+  }
+
+  .profile-pic-transparent, .profile-pic {
+  height:250px;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+}
+
+/* ------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+.right-side {
+  flex: 1.6;
+  border-left: 2px solid rgb(182, 182, 182);
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me-txt {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  margin-top: 100px;
+ 
+}
+
+.about-me {
+  font-size: 23px;
+   margin-left: 11.5%;
+
+}
+
+.revo-txt {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  margin-top: 30px;
+}
+
+.revo {
+  font-size: 35px;
+  color: rgb(55, 87, 180);
+  margin-left: 11.5%;
+
+}
+
+.iam-txt {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.iam {
+  font-size: 18px;
+  font-weight: normal;
+  width: 75%;
+  margin-left: 11.5%;
+ 
+}
+
+
+.my-project-div {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid rgb(182, 182, 182) ;
+
+}
+
+.my-project-txt {
+  display: flex;
+  flex: 0.3;
+  align-items: center;
+  justify-content: left;
+  padding-top: 20px;
+  
+}
+
+.my-project {
+  font-size: 23px;
+  margin-left: 11.5%;
+  margin-top: 20px;
+}
+
+.borno-txt {
+  display: flex;
+  flex: 0.2;
+  align-items: center;
+  justify-content: left;
+  margin-top: 20px;
+}
+
+.borno {
+  font-size: 20px;
+  margin-left: 15%;
+  margin-top: 20px;
+  color: rgb(55, 87, 180);
+
+}
+
+.bornop-txt {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 20px;
+
+}
+
+.bornop {
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 15%;
+  width: 60%;
+  margin-bottom: 17px;
+}
+
+.medicine-txt {
+  display: flex;
+  flex: 0.2;
+  align-items: center;
+  justify-content: left;
+
+}
+
+.medicine {
+  font-size: 20px;
+  margin-left: 15%;
+  color: rgb(55, 87, 180);
+
+}
+
+
+.this-txt {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 30px;
+
+}
+
+.this {
+  font-weight: normal;
+  font-size: 17px;
+  margin-left: 15%;
+  width: 60%;
+  margin-bottom: 17px;
+}
+
+
+
+
+footer {
+  background-color: rgba(85, 73, 255, 0.274);
+  height: 50px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  border-top: 2px solid rgb(182, 182, 182);
+
+} 
+
+
+@media (max-width: 1000px) {
+  .main {
+    flex-direction: column; /* Stack vertically on small screens */
+  }
+  
+  .left-side, .right-side {
+    width: 100%; /* Full width when stacked */
+    border-left: none; /* Remove left border when stacked */
+  }
+  
+  .right-side {
+    border-top: 2px solid rgb(182, 182, 182); /* Add top border when stacked */
+  }
+  
+  .name-div {
+    margin-top: 20px;
+  }
+
+  .name { font-size: 35px;
+  
+  }
+
+  .profession-div {
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  
+  .profession {
+    font-size: 18px;
+  }
+
+  .contact-us {
+    margin-top: 15px;
+  }
+
+  .contact-icons{
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+ .about-me-txt {
+  margin-top: 50px;
+ }
+
+.about-me {
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.revo {
+  margin-left: 5%;
+  font-size: 25px;
+}
+.iam {
+  margin-left: 8%;
+  width: 90%;
+  font-size: 15px;
+}
+
+.my-project {
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+.borno {
+  margin-left: 8%;
+  font-size: 18px;
+}
+
+.bornop {
+  margin-left: 8%;
+  font-size: 14px;
+  width: 90%;
+}
+
+.medicine {
+  margin-left: 8%;
+  font-size: 17px;
+}
+
+.this {
+  margin-left: 8%;
+  font-size: 14px;
+  width: 90%;
+}
+}
+
+@media (min-width: 1001px) {
+
+
+  .main {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  }
+  
+  .right-side {
+    border-left: 2px solid rgb(182, 182, 182); /* Restore left border */
+    border-top: none; /* Remove top border */
+  }
+
+}
+
+
+
+
