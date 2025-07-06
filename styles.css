@@ -156,7 +156,7 @@ flex: 1;  display: flex;
   height: 25px;
   width: 30px;
   color: red;
-  margin-left: 8px;
+  margin-left: 12px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -292,6 +292,10 @@ flex: 1;  display: flex;
 
 .email-txt, .telep-txt, .facebook-txt {
   font-size: 14px;
+}
+
+  .email-icon-div-2 {
+  margin-left: 8px;
 }
 
 }
